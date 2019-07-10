@@ -9,6 +9,7 @@ New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 You'll need a Linux system with `qemu` (3.1 or later), `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
 ```
+sudo yum install qemu qemu-kvm-tools qemu-img python36-pip # for Fedora / Centos
 sudo apt-get install qemu-system qemu-utils python3 python3-pip  # for Ubuntu, Debian, Mint, and PopOS.
 sudo pacman -S qemu python python-pip            # for Arch.
 sudo xbps-install -Su qemu python3 python3-pip   # for Void Linux.
